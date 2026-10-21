@@ -1,0 +1,38 @@
+"""Colors shared by the main window and dialogs."""
+
+THEMES = {
+    "light": dict(
+        bg="#F5F6F7",
+        card="#FFFFFF",
+        text="#24292F",
+        muted="#59636E",
+        border="#D0D7DE",
+        field="#FFFFFF",
+        accent="#0969DA",
+        hover="#0759BA",
+        tint="#EAF2FC",
+        select="#DDEBFC",
+        green="#1A7F37",
+        red="#CF222E",
+        amber="#9A6700",
+        stripe="#F8F9FA",
+        disabled="#929AA3",
+    ),
+    "dark": dict(
+        bg="#191C21",
+        card="#22262D",
+        text="#E6EDF3",
+        muted="#A5AFBC",
+        border="#3C434D",
+        field="#1C2026",
+        accent="#75ACF8",
+        hover="#94BFFF",
+        tint="#273E5C",
+        select="#304D70",
+        green="#7BCC91",
+        red="#FF9492",
+        amber="#E5BA6B",
+        stripe="#262B33",
+        disabled="#78828F",
+    ),
+}

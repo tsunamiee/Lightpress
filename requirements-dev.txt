@@ -1,0 +1,4 @@
+-r requirements.txt
+PyInstaller==6.21.0
+black==24.10.0
+pyflakes>=3.2,<4

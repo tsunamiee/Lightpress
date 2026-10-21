@@ -1,0 +1,14 @@
+FFmpeg for Lightpress
+
+Lightpress uses FFmpeg 7.1.5 built from the archives locked in
+tools/ffmpeg/sources.json. The build recipe is tools/ffmpeg/build.py.
+
+License: GPL v3 or later.
+
+Corresponding-source release asset:
+FFmpeg-7.1.5-Lightpress-source.zip
+
+The portable package includes its actual build configuration, toolchain
+versions and binary checksums in licenses/FFmpeg-build-information.json.
+FFmpeg-SOURCE.txt identifies the matching source asset and its SHA-256.
+Dependency notices are in licenses/FFmpeg-dependencies.txt.

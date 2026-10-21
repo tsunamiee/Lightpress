@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lightpress"
+version = "1.0.0"
+description = "Batch image and video compression for Windows"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["Pillow==13.0.0", "resvg-py==0.5.0"]
+license = "MIT"
+
+[project.gui-scripts]
+lightpress = "compressor.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["compressor*"]
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]
+include = '\.pyi?$'
+extend-exclude = '/(\.local|build|dist|release|artifacts)/'
+
