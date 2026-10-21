@@ -4,9 +4,9 @@ English | [简体中文](README.zh-CN.md)
 
 Lightpress is a lightweight image and video compressor for Windows. Convert files or entire folders, choose an output format and quality, and keep your originals. All processing takes place on your computer.
 
-![Lightpress in light mode](docs/screenshots/light.png)
+![Lightpress in light mode](docs/screenshots/light-en.png)
 
-[Dark mode](docs/screenshots/dark.png) · [Usage guide (Chinese)](docs/usage.md) · [Development guide (Chinese)](docs/development.md)
+[Dark mode](docs/screenshots/dark-en.png) · [Usage guide (Chinese)](docs/usage.md) · [Development guide (Chinese)](docs/development.md)
 
 ## Features
 
